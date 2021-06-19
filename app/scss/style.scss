@@ -9,9 +9,11 @@
 @import 'header';
 @import 'menu';
 @import 'burger';
+@import 'section';
 @import 'topButton';
 @import 'accordion';
 @import 'social';
+@import 'video';
 @import 'code';
 @import 'footer';
 
@@ -45,25 +47,25 @@
     }
 }
 
-.section {
-  margin: auto;
-    width: 100%;
-    background: rgb(79, 109, 145);
-    margin-bottom:5px;
-    &__title {
-        color:#fff;
-        text-align: center;
-        font-size: 50px;
-      &:after {
-          content: '';
-          display: block;
-          width: 60px;
-          height: 3px;
-          margin: 30px auto;
-          background:aqua;
-      }
-    }
-}
+// .section {
+//   margin: auto;
+//     width: 100%;
+//     background: rgb(79, 109, 145);
+//     margin-bottom:5px;
+//     &__title {
+//         color:#fff;
+//         text-align: center;
+//         font-size: 50px;
+//       &:after {
+//           content: '';
+//           display: block;
+//           width: 60px;
+//           height: 3px;
+//           margin: 30px auto;
+//           background:aqua;
+//       }
+//     }
+// }
 
 
 .copyright {
