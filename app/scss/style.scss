@@ -7,6 +7,7 @@
 
 @import 'glan';
 @import 'header';
+@import 'intro';
 @import 'menu';
 @import 'burger';
 @import 'section';
@@ -46,7 +47,9 @@
         transition: all 0.3s;
     }
 }
-
+.main {
+    background: rgb(243, 240, 240);
+}
 // .section {
 //   margin: auto;
 //     width: 100%;

@@ -1,5 +1,7 @@
 .section {
     padding: 20px 0;
+    margin: auto;
+    width: 80%;
       &__header {
         width: 100%;
         max-width: 950px;
@@ -28,6 +30,8 @@
       &__text {
         font-size:1.3rem;
         color: #666;
+        margin-bottom: 15px;
+        text-align: center;
       }
       .section__link {
         display: block;
