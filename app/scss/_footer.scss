@@ -11,7 +11,7 @@
     &__block {
         width: 32%;
         margin-left:3px;
-        padding: 5px 5px;
+        padding: 5px;
         border: 1px solid #fff;
         display: flex;
         flex-direction: column;
@@ -20,6 +20,7 @@
     }
 
     &__title {
+        text-align: center;
         margin-bottom: 10px;
         font-size: 18px;
         font-weight: 600;
@@ -70,5 +71,25 @@
             color: #eec212;
         }
     }
+    
+}
+@media(max-width:730px) {
+    .footer__block {
+        width: 100%;
+    }
+    .intro__suptitle {
+        font-size: 20px;
+    }
+    .intro__title {
+        font-size: 40px;
+    }
+}
+@media(max-width:560px) {
+    .header__contacts {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 10px 0;
+    }
+   
     
 }

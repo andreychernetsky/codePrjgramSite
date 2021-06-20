@@ -68,14 +68,16 @@ goToBtn.addEventListener('click', backTotop);
 
   function openAcc(item) {
     item.classList.add('accordion__panel--open');
-    item.style.maxHeight = item.scrollHeight+'px';
-    item.style.padding = '1rem 1.5rem 1rem 1.5rem'
+    item.style.maxHeight = item.scrollHeight +'px';
+    // item.style.height = item.scrollHeight +'px';
+    item.style.padding = '3px 3px 3px 3px '
   }
 
   function closeAcc(item) {
     item.classList.remove('accordion__panel--open');
     item.style.maxHeight = '0';
-    item.style.padding = '0 1.5rem 0 1.5rem';
+    // item.style.height = '0';
+    item.style.padding = '0 5px 0 5px';
   }
 
 
